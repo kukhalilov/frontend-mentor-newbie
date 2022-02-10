@@ -18,7 +18,7 @@
 html, body {
     height: 100%;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     background-color: var(--dark-blue-main-bg);
     display: flex;
     flex-direction: column;
@@ -28,15 +28,15 @@ html, body {
 
 .card {
     background-color: var(--dark-blue-card-bg);
-    width: 19rem;
-    padding: 1.3rem;
+    width: 300px;
+    padding: 1rem;
     border-radius: 1rem;
     box-shadow: 1px 20px 1px 15px var(--dark-blue-box-sh1), 1px 30px 20px 35px var(--dark-blue-box-sh2);
 }
 
 .card-top {
     width: 100%;
-    height: 16.4rem;
+    height: 264px;
     background-image: url("/images/image-equilibrium.jpg");
     background-size: contain;
     border-radius: 0.5rem;
@@ -47,7 +47,7 @@ html, body {
 .card-top:hover .img:first-child {
     cursor: pointer;
     width: 100%;
-    height: 16.4rem;
+    height: 264px;
     border-radius: 0.5rem;
     background: var(--cyan);
     opacity: 0.5;
@@ -68,8 +68,8 @@ html, body {
 }
 
 header h1 {
-    margin: 1.2rem 0 0.9rem 0;
-    font-size: 18px;
+    margin: 1rem 0 0.7rem 0;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--white);
 }
@@ -83,7 +83,7 @@ header h1:hover {
     color: var(--soft-blue);
     font-weight: 300;
     line-height: 1.4;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.1rem;
 }
 
 #info {
@@ -98,7 +98,7 @@ header h1:hover {
 #info div:first-child span {
     color: var(--cyan);
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
     margin-left: 0.4rem;
@@ -108,13 +108,13 @@ header h1:hover {
     color: var(--soft-blue);
     display: flex;
     align-items: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-left: 0.3rem;
 }
 
 .info img {
-    max-width: 0.9rem;
-    max-height: 0.9rem;
+    max-width: 0.8rem;
+    max-height: 0.8rem;
     align-self: center;
 }
 
@@ -123,7 +123,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid var(--dark-blue-line);
-    margin: 1.2rem auto 1rem auto;
+    margin: 1.1rem auto 0.8rem auto;
     padding: 0;        
 }
 
@@ -141,7 +141,7 @@ hr {
 }
 
 .card-bottom p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--soft-blue);
 }
 
@@ -161,6 +161,6 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 1rem;
+    bottom: 0.5rem;
 }
 .attribution a { color: hsl(49, 92%, 47%); }
