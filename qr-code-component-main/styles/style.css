@@ -32,6 +32,7 @@ html, body {
 .card h1 {
     font-size: 1.4rem;
     color: hsl(218, 44%, 22%);
+    padding: 0 1rem;
 }
 
 .card p {
