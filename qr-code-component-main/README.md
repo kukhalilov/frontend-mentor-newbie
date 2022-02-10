@@ -4,7 +4,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Screenshot](./images/screenshot.png)
+![Screenshot](./images/screenshot.jpg)
 
 ### Built with
 
